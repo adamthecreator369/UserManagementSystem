@@ -57,7 +57,7 @@ public final class R {
 		public static final int subLayout1_field_x = field_x + 35;
 		public static final int field_width = 250;
 		public static final int field_height = 40;
-		public static final int combo_width = 0; // This value has no effect on component of type JComboBox.
+		public static final int combo_width = 0; 
 		public static final int combo_height = 45;
 		public static final int txt_area_x = 305;
 		public static final int txt_area_y = 383;
