@@ -1,0 +1,10 @@
+Adam Jost/aJost84~/Password1~/ADMIN
+Administrator/Admin/password/ADMIN
+Barb Jost/bJost1%/Password1%/REGULAR
+Brian Davis/bDavis0%/Password0%/REGULAR
+Carl Edwards/cEdwards76^/Password^1/REGULAR
+Chris Vassalo/cVassalo!1/Password!1/REGULAR
+Chris Watkins/cWatkins0%/Password0%/REGULAR
+Elizabeth Daniels/eDaniels1~/Password1~/REGULAR
+Nobody Else/Nobody01/Password01/REGULAR
+Zach White/zWhite1!/Password1!/REGULAR
