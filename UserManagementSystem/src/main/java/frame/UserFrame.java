@@ -341,7 +341,7 @@ public class UserFrame {
 				} else if (layout2.getBtn().getText().equals(R.string.delete_user)) {
 					layout2.reset();
 					userList.remove(name);
-					mainLayout.getTxtArea().setText("* Succes: User " + name + " has been deleted.");
+					mainLayout.getTxtArea().setText("* Success: User " + name + " has been deleted.");
 				} else if (layout2.getBtn().getText().equals(R.string.search)) {
 					layout2.reset();
 					String userActivity = logList.getUserActivity(userToEdit);
