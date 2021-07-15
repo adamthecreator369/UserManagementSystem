@@ -9,11 +9,7 @@ import java.io.PrintWriter;
 import main.java.entities.User;
 import main.java.entities.User.UserType;
 
-/**
- * 
- * @author adamjost
- *
- */
+
 public class OrderedUserList {
 	// reference to first node
 	private Node head;
@@ -22,7 +18,6 @@ public class OrderedUserList {
 		head = null;
 	}
 
-	// Class for nodes
 	static class Node {
 		User user;
 		Node next;
