@@ -20,11 +20,12 @@ import main.resources.R;
  * @category: Layout
  */
 public class SubLayoutOne extends Layout {
-
+	
+	// Data fields
 	private JLabel titleLabel;
 	private JLabel fieldLabel1, fieldLabel2, fieldLabel3, fieldLabel4;
 
-	private JTextField field1, field2, field3; // change field four to an option select.
+	private JTextField field1, field2, field3; 
 	private JComboBox<String> comboBox;
 	private JButton topRtBtn1, topRtBtn2;
 
@@ -34,12 +35,14 @@ public class SubLayoutOne extends Layout {
 
 	private JButton[] btns;
 
+	// Constructor
 	public SubLayoutOne() {
 		instantiateComponents();
 		componentSettings();
 		hide();
 	}
 
+	// Getters
 	private JComboBox<String> getComboBox() {
 		return comboBox;
 	}
@@ -64,6 +67,30 @@ public class SubLayoutOne extends Layout {
 		return topRtBtn2;
 	}
 
+	private String getField1Txt() {
+		return getField1().getText();
+	}
+
+	private String getField2Txt() {
+		return getField2().getText();
+	}
+
+	private String getField3Txt() {
+		return getField3().getText();
+	}
+
+	private JComponent[] getInputComponents() {
+		return inputComponents;
+	}
+
+	private String getComboSelection() {
+		return getComboBox().getSelectedIndex() == 0 ? "ADMIN" : "REGULAR";
+	}
+	
+	public JButton[] getBtns() {
+		return btns;
+	}
+	
 	@Override
 	public void instantiateComponents() {
 		titleLabel = new JLabel(R.string.create_user);
@@ -84,25 +111,6 @@ public class SubLayoutOne extends Layout {
 				field3, comboBox, topRtBtn1, topRtBtn2 };
 	}
 
-	private String getField1Txt() {
-		return getField1().getText();
-	}
-
-	private String getField2Txt() {
-		return getField2().getText();
-	}
-
-	private String getField3Txt() {
-		return getField3().getText();
-	}
-
-	private JComponent[] getInputComponents() {
-		return inputComponents;
-	}
-
-	private String getComboSelection() {
-		return getComboBox().getSelectedIndex() == 0 ? "ADMIN" : "REGULAR";
-	}
 
 	@Override
 	public void componentSettings() {
@@ -140,12 +148,6 @@ public class SubLayoutOne extends Layout {
 		for (JButton btn : btns) {
 			btn.setFont(new Font("Serif", Font.ROMAN_BASELINE, 16));
 		}
-	}
-
-	// Public Access
-
-	public JButton[] getBtns() {
-		return btns;
 	}
 
 	public void addComponents(Frame frame) {
