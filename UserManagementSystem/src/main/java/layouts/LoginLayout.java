@@ -12,7 +12,7 @@ import javax.swing.JTextField;
 import main.resources.R;
 
 /**
- * Creates and displays a sub-layout.
+ * Creates the Login Layout.
  * 
  * @author: Adam Jost
  * @category: Layout
