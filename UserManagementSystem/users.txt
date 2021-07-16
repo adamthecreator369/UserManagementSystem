@@ -1,0 +1,12 @@
+Adam Jost/aJost84~/Password1~/ADMIN
+Administrator/Admin/password/ADMIN
+Bernice Brock/bBrock^1/Password^1/REGULAR
+Brian Davis/bDavis0%/Password0%/ADMIN
+Carl Edwards/cEdwards76^/Password^1/REGULAR
+Charles Barkley/cBarkley3%/Password3%/REGULAR
+Greg Davis/gDavis/Password34#/REGULAR
+Greg Mathis/gMathis/Password*4/REGULAR
+Joe Mccullough/jMcCullough/Password9!!/REGULAR
+Missy Kirksey/mKirksey1%/Password1%/ADMIN
+Sky Rizziano/sRizziano/Password45&/REGULAR
+Zach White/zWhite5%/Password5%/REGULAR
