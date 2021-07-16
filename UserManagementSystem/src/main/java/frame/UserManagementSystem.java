@@ -52,8 +52,7 @@ public class UserManagementSystem {
 		render();
 	}
 
-	/** Constructs and shows the Frame 
-	 * @throws InterruptedException */
+	/** Constructs and shows the Frame */
 	public void render() {
 		
 		// Instantiate all layouts and show those
