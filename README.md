@@ -1,5 +1,5 @@
 # UserManagementSystem
-GUI based, stand-alone user management and logging system. 
+GUI based, stand-alone user management and logging system (Mac OS Only). 
 <br><br>
 <b>Admin login credentials</b>
 <br>
